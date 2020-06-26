@@ -17,7 +17,7 @@
 
 .MoviesList-item {
   margin-bottom: 24px;
-  width: 48%;
+  width: 30%;
 }
 
 #detail {
@@ -35,4 +35,8 @@
 .Subtitle {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.imagen {
+  height: 700px !important;
 }

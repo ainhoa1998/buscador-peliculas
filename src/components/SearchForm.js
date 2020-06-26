@@ -25,11 +25,12 @@ export class SearchForm extends Component {
         const { Search = [] } = result;
         this.props.onResults(Search);
       });
+    document.getElementById("Formulario").reset();
   };
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form id="Formulario" onSubmit={this.handleSubmit}>
         <div className="field has-addons">
           <div className="control">
             <input

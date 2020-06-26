@@ -18,7 +18,7 @@ export class Movie extends Component {
       <Link to={`/detail/${id}`} className="card">
         <div className="card-image">
           <figure className="image">
-            <img src={poster} alt={title} />
+            <img className="imagen" src={poster} alt={title} />
           </figure>
         </div>
         <div className="card-content">

@@ -8,7 +8,6 @@ export class Home extends Component {
   state = { usedSearch: false, results: [] };
 
   handleResults = (results) => {
-    console.log(this.state.usedSearch);
     this.setState({ results, usedSearch: true });
   };
 
